@@ -1,0 +1,43 @@
+.home-banner {
+  background-image: url('../images/home.png'); 
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 87vh;
+   background-attachment: scroll;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 30px 60px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.home-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-overlay button {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff914d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.home-overlay button:hover {
+  background-color: #ff6a00;
+  transform: translateY(-3px);
+  transition: transform 0.5s ease;
+}
