@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Udhaya",
+      "email": "udhayagiriayyavu@gmail.com",
+      "password": "12345678",
+      "recipe": {
+        "ingredients": [
+          "Potato",
+          "Egg",
+          "Bread"
+        ],
+        "meal": "snacks",
+        "cuisine": "Italian"
+      }
+    }
+  ]
+}

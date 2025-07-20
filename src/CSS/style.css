@@ -1,0 +1,95 @@
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: rgb(244, 244, 244);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-container h1 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #ff914d;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.nav-links li .active
+{
+  color: #ff914d;
+}
+.nav-links li a:hover {
+  color: #ff914d;
+}
+
+.profile-img {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:12%;
+  right:1%;
+  text-align: center;
+  position: fixed;
+  height: 80px;
+  width: 120px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  z-index: 999;
+}
+
+.dropdown-menu button {
+  background-color: #ff914d;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu button:hover {
+  background-color: #ff6a00;
+}
